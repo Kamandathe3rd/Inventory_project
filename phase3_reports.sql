@@ -1,7 +1,6 @@
 -- =====================================================
 -- Inventory & Order Management System
 -- Phase 3: Monitoring & reporting
--- Author: David Kamanda
 -- =====================================================
 
 USE inventory_db;
