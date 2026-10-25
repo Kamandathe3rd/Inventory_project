@@ -16,11 +16,11 @@ click the lightning bolt with nothing selected):
 
 | # | File | What it does |
 |---|------|--------------|
-| 1 | `phase1_schema.sql` | Creates a fresh database: 5 tables, constraints, indexes |
-| 2 | `phase2_orders.sql` | Sample data, order triggers, `place_order` procedure, tracking queries |
-| 3 | `phase3_reports.sql` | Order summaries, low-stock, tier and discount reports |
-| 4 | `phase4_replenishment.sql` | Replenishment procedures, automatic customer tiers |
-| 5 | `phase5_views.sql` | Views, performance optimization and evidence |
+| 1 | `Sql/phase1_schema.sql` | Creates a fresh database: 5 tables, constraints, indexes |
+| 2 | `Sql/phase2_orders.sql` | Sample data, order triggers, `place_order` procedure, tracking queries |
+| 3 | `Sql/phase3_reports.sql` | Order summaries, low-stock, tier and discount reports |
+| 4 | `Sql/phase4_replenishment.sql` | Replenishment procedures, automatic customer tiers |
+| 5 | `Sql/phase5_views.sql` | Views, performance optimization and evidence |
 
 Phase 2 and Phase 4 end with **failure tests** that are *supposed* to fail.
 Workbench stops at the first one; run the rest one at a time (Ctrl + Enter).
